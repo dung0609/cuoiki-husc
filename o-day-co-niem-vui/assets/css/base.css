@@ -2,11 +2,14 @@
     --white-color: #fff;
     --black-color: #000;
     --text-color: #333;
+    --violet: 	#E6E6FA
 
     --header-height: 120px;
     --navbar-height: 34px;
     --header-with-search-height: calc(var(--header-height) - var(--navbar-height));
 }
+
+
 
 * {
     box-sizing: inherit;
@@ -56,3 +59,9 @@ html {
     width: 83.3334%;
 }
 
+.h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: none;
+    font-style: var(--violet);
+    text-align: center;
+}
